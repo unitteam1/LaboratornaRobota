@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border_box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+}
+.resume
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(220,220,220);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+    
+}
+
+.resume .resume_left
+{
+    position: relative;
+    background: rgb(192,192,192);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.profileText .imgBox
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.profileText .imgBox img
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.profileText h2
+{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 40px;
+  
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText span
+{
+    position: relative;
+    display: grid;
+    box-sizing: content-box;
+    width: 40%;
+    text-align: center;
+    background: rgb(214, 214, 214);
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: black;
+}
+
+.resume .personalInfo .socials
+{
+    
+    position: absolute;
+    left: 120px;
+    align-items: center;
+}
+.resume .personalInfo .socials .icon:hover
+{
+color: rgb(173,216,230);
+
+}
+
+.personalInfo .info
+{
+    padding-top: 60px;
+}
+
+.personalInfo  .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    padding-top: 10px;
+    color: rgb(30,144,255);
+}
+
+
+
+.personalInfo .download
+{
+    padding-top: 60px;
+}
+
+
+.button
+{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background-color: rgb(0,0,255);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    
+  
+}
+
+.personalInfo .download
+{
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover
+{
+    background-color: rgb(7, 48, 152);
+}
+
+.download .text
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    color: #fff;
+    
+}
+
+.button .icon
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 100%;
+    width: 70%;
+    color: #fff;
+    
+}
+
+.resume .resume_right
+{
+    position: relative;
+    background: rgb(220,220,220);
+    padding: 40px;
+}
+.resume_right .buttonRight
+{
+    text-align: end;
+}
+
+.resume_right .btn
+{
+    margin-top: 10px;
+    display: inline-flex;
+    padding: 7px 20px;
+    border-radius: 15px;
+    background-color: rgb(0,0,255);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    
+}
+.btn:hover
+{
+    background-color: rgb(65,105,225);
+}
+
+.resume_right .aboutme
+{
+    color: black;
+    font-size: 1em;
+    margin-top: 70px;
+    text-align: start;
+    font-weight: 700;
+    line-height: 1.4em;
+    border-color: #fff;
+    border-width: 50px;
+
+}
+
+.aboutme .line
+{
+    position: relative;
+    width: 10%;
+    height: 6px;
+    background-color: yellow;
+    display: block;
+    margin-top: 10px;
+}
+
+.aboutme .line div
+{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+
+background: rgb(0,0,255);
+}
+
+.aboutme p
+{
+    width: 300;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.whatimdoing
+{
+    color: black;
+    font-size: 1em;
+    margin-top: 40px;
+    text-align: start;
+    font-weight: 700;
+    line-height: 1.4em;
+    border-color: #fff;
+    border-width: 50px;
+
+}
+
+
+
+.resume_right .boxes .box
+{
+    position: relative;
+    width: 250px;
+    height: 190px;
+    background: rgb(192,192,192);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 3px rgb(169,169,169);
+}
+
+.box
+{
+    border: 10px;
+    border-color: black;
+}
+
+.resume_right .box .icon
+{
+    position: absolute;
+    display:flex ;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    
+}
+ 
+.icon
+{
+    display: inline-block;
+    color: aquamarine;
+}
+
+
+.box .content 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.box .content h3
+{
+    position: absolute;
+    display:flex ;
+    top: 80px;
+    font-size: 24px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.box .content .text p
+{
+    position: relative;
+    display:flex ;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+

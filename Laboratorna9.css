@@ -1,0 +1,136 @@
+
+
+:root {
+    --modal-duration: 1s;
+    --modal-color: #428bca;
+}
+
+img 
+{
+  vertical-align: middle;
+}
+  
+body 
+{
+    font-family: sans-serif;
+    background: #f4f4f4;
+    font-size: 15px;
+    line-height: 1;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.button, .button1, .button2, .button3, .button4
+{
+    background: #428bca;
+    padding: 1em 3em;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.button:hover
+{
+    background: #3876ac;
+}
+  
+.button1:hover
+{
+    background: #3876ac;
+}
+.button2:hover
+{
+    background: #3876ac;
+}
+.button3:hover
+{
+    background: #3876ac;
+}
+.button4:hover
+{
+    background: #3876ac;
+}
+  
+.modal, .modal1, .modal2, .modal3, .modal4
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+  
+.modal-content,.modal-content1, .modal-content2, .modal-content3, .modal-content4
+{
+    margin: 10% auto;
+    width: 500px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+  
+
+  
+.modal-header,.modal-header1, .modal-header2, .modal-header3, .modal-header4
+{
+    background:var(--modal-color); 
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+  
+  
+.close, .close1, .close2, .close3, .close4
+{
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+  
+.close:hover,
+.close:focus
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close1:hover,
+.close1:focus
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.close2:hover,
+.close2:focus
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close3:hover,
+.close3:focus
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close4:hover,
+.close4:focus
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
